@@ -6,7 +6,13 @@ digraph mars_rover_modeling {
  Location;
  Direction;
  Orientation;
+ Coordinate;
+ X;
+ Y;
  Rover -> Orientation [ label = "has a" ]
  Rover -> Location [ label = "has a" ]
  Orientation -> Direction [ label = " is a" ]
+ Location -> Coordinate [ label = "is a" ]
+ Coordinate -> X [headlabel = "has a", labeldistance=3.0, labelangle=35]
+ Coordinate -> Y [label = "has a" ]
 }
