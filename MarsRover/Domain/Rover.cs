@@ -29,4 +29,15 @@ public class Rover
       case Direction.West: Location = Location.AdjustXBy(1); break;
     }
   }
+
+  public void TurnLeft()
+  {
+    switch(Orientation)
+    {
+      case Direction.North: Orientation = Direction.West; break;
+      case Direction.West: Orientation = Direction.South; break;
+      case Direction.South: Orientation = Direction.East; break;
+      case Direction.East: Orientation = Direction.North; break;
+    }
+  }
 }
