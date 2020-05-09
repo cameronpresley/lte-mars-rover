@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover", "MarsRover\MarsRover.csproj", "{0B4EF1D2-F9F1-4E9B-B8EA-968FD42F691B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.UnitTests", "MarsRover.UnitTests\MarsRover.UnitTests.csproj", "{65E435A7-5F91-4A11-B43A-0E5ABBF33701}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{0B4EF1D2-F9F1-4E9B-B8EA-968FD42F691B}.Release|x64.Build.0 = Release|Any CPU
 		{0B4EF1D2-F9F1-4E9B-B8EA-968FD42F691B}.Release|x86.ActiveCfg = Release|Any CPU
 		{0B4EF1D2-F9F1-4E9B-B8EA-968FD42F691B}.Release|x86.Build.0 = Release|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Debug|x64.Build.0 = Debug|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Debug|x86.Build.0 = Debug|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Release|x64.ActiveCfg = Release|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Release|x64.Build.0 = Release|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Release|x86.ActiveCfg = Release|Any CPU
+		{65E435A7-5F91-4A11-B43A-0E5ABBF33701}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
