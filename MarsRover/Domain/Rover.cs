@@ -18,4 +18,15 @@ public class Rover
       case Direction.West: Location=Location.AdjustXBy(-1); break;
     }
   }
+
+  public void MoveBackward()
+  {
+    switch(Orientation)
+    {
+      case Direction.North: Location = Location.AdjustYBy(-1); break;
+      case Direction.East: Location = Location.AdjustXBy(-1); break;
+      case Direction.South: Location = Location.AdjustYBy(1); break;
+      case Direction.West: Location = Location.AdjustXBy(1); break;
+    }
+  }
 }
