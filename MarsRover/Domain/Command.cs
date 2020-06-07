@@ -4,5 +4,6 @@ public enum Command
   MoveBackward,
   TurnLeft,
   TurnRight,
-  Quit
+  Quit,
+  Unknown
 }
