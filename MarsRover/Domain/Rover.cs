@@ -5,6 +5,7 @@ public class Rover
 
   public Rover()
   {
+    Orientation = Direction.North;
     Location = new Coordinate();
   }
 
