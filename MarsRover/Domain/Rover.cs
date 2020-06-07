@@ -1,4 +1,15 @@
-public class Rover
+public interface IRover
+{
+  Direction Orientation { get; set; }
+  Coordinate Location { get; set; }
+
+  void MoveBackward();
+  void MoveForward();
+  void TurnLeft();
+  void TurnRight();
+}
+
+public class Rover : IRover
 {
   public Direction Orientation { get; set; }
   public Coordinate Location { get; set; }
