@@ -12,7 +12,7 @@
       "program": "${workspaceFolder}/MarsRover/bin/Debug/netcoreapp3.1/MarsRover.dll",
       "args": [],
       "cwd": "${workspaceFolder}/MarsRover",
-      "console": "internalConsole",
+      "console": "externalTerminal",
       "stopAtEntry": false
     },
     {

@@ -66,6 +66,7 @@ namespace MarsRover.UnitTests.RoverDecoratorTests
       _rover.DidNotReceive().MoveBackward();
       _rover.DidNotReceive().TurnLeft();
       _rover.DidNotReceive().TurnRight();
+      _logger.Received(1).Log("Rover stopped.");
       _logger.Received(1).Log(Arg.Is<string>(s => s.StartsWith("Rover is at ")));
     }
   }

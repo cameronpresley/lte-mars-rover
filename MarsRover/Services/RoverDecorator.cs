@@ -20,33 +20,33 @@ namespace MarsRover.Services
         case Command.MoveForward:
           _rover.MoveForward();
           _logger.Log("Rover moved forward.");
-          _logger.Log(FormatRover(_rover));
+          _logger.Log(FormatRover());
           break;
         case Command.MoveBackward:
           _rover.MoveBackward();
           _logger.Log("Rover moved backward.");
-          _logger.Log(FormatRover(_rover));
+          _logger.Log(FormatRover());
           break;
         case Command.TurnLeft:
           _rover.TurnLeft();
           _logger.Log("Rover turned left.");
-          _logger.Log(FormatRover(_rover));
+          _logger.Log(FormatRover());
           break;
         case Command.TurnRight:
           _rover.TurnRight();
           _logger.Log("Rover turned right.");
-          _logger.Log(FormatRover(_rover));
+          _logger.Log(FormatRover());
           break;
         case Command.Quit:
-          _logger.Log("Rover stopped");
-          _logger.Log(FormatRover(_rover));
+          _logger.Log("Rover stopped.");
+          _logger.Log(FormatRover());
           break;
       }
     }
 
-    private string FormatRover(IRover rover)
+    public string FormatRover()
     {
-      return $"Rover is at ({rover.Location.X}, {rover.Location.Y}) facing {rover.Orientation}";
+      return $"Rover is at ({_rover.Location.X}, {_rover.Location.Y}) facing {_rover.Orientation}";
     }
   }
 }
